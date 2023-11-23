@@ -1,0 +1,54 @@
+.voucher-type3-container {
+    --content-bg-color: #fff;
+    --content-font-color: #181818;
+
+    background-color: #fff;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.bg-image {
+    background: url('https://image.s4.sfmc-content.com/lib/fe30117276640474731270/m/1/b7491638-5562-47e0-a95c-bd020b6c54ff.png');
+    background-size: cover;
+    height: 150px;
+}
+
+.content-container {
+    background: var(--content-bg-color);
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--content-font-color);
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--content-font-color);
+}
+
+.shop-now {
+    border: 1px solid var(--content-font-color);
+    border-radius: 4px;
+    width: 83px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    padding: 2px 2px;
+    color: var(--content-font-color);
+}
+
